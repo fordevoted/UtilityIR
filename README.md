@@ -22,5 +22,9 @@ If this work helps your research or work, please cite our paper
   year={2023}
 }
 ```
+## <a name="news"></a> 📜 License
+This project is released under [Apache 2.0 license](LICENSE)
+
+
 ## <a name="news"></a> ✉️ Contact
 Please free free let me know if you have any questions about this work by opening an issue or mail `210509fssh@gmail.com` `r09942066@ntu.edu.tw`
