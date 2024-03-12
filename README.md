@@ -1,7 +1,7 @@
 # Always Clear Days: Degradation Type and Severity Aware All-In-One Adverse Weather Removal
 An official implement of the paper "Always Clear Days: Degradation Type and Severity Aware All-In-One Adverse Weather Removal"
 <p align="center">
-  <img src="asset/banner.png" width="700"/>
+  <img src="assets/banner.png" width="700"/>
 </p>
 
 [[Paper](https://arxiv.org/abs/2310.18293)]
@@ -9,7 +9,7 @@ An official implement of the paper "Always Clear Days: Degradation Type and Seve
 [Yu-Wei, Chen](https://fordevoted.github.io), [Soo-Chang, Pei](https://scholar.google.com/citations?user=-JiGrnAAAAAJ&hl=zh-TW)
 
 <p align="center">
-  <img src="asset/model.png" width="500"/>
+  <img src="assets/model.png" width="500"/>
 </p>
 
 
@@ -31,7 +31,7 @@ seaborn==0.10.1
 scikit-learn==1.0
  ```
  ### Pretrained model
-**[Setting 1](https://arxiv.org/abs/2310.18293)**, **[Setting 2](https://arxiv.org/abs/2310.18293)**
+**[Setting 1](https://github.com/fordevoted/UtilityIR/releases/download/v1/utilityIR_setting1.pth)**, **[Setting 2](https://github.com/fordevoted/UtilityIR/releases/download/v1/utilityIR_setting2.pth)**
  ### Testing
 To evaluate the model, you can pass --testing args to run different testing functions.
 ```
