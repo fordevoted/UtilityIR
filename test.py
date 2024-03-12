@@ -64,6 +64,7 @@ parser.add_argument("--exp_name", type=str, default="UtilityIR_RSSWRD",
                     help="name of the experiment")
 parser.add_argument("--test_dir", type=str, default=findfolder(test_name), help="path to test image directory")
 parser.add_argument("--out_dir", type=str, default=r'./output', help="path to output image directory")
+parser.add_argument("--testing", type=str, default=r'test_image', help="testing function. All list: ['test_image', 'test_plot_latent_tsne', 'test_latent_manipulation', 'eval_objective', 'test_QA']")
 parser.add_argument("--checkpoint", type=int, default=30, help="number of epoch of checkpoint")
 
 parser.add_argument("--n_downsample", type=int, default=2, help="number downsampling layers in encoder")
@@ -374,7 +375,7 @@ def eval_objective(test_folder, test_GT_folder, test_name):
 
 if __name__ == '__main__':
 
-    testing = 'test_image'
+    testing = opt.testing
     testing_list = ['test_image', 'test_plot_latent_tsne', 'test_latent_manipulation', 'eval_objective',
                     'test_QA']
 
