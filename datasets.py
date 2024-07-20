@@ -236,4 +236,4 @@ class DegradationTestDataset(data.Dataset):
         return {"img": img, 'name': self.files[index % len(self.files)]}
 
     def __len__(self):
-        return 40#len(self.files)
+        return len(self.files)#40
